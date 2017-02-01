@@ -11,7 +11,7 @@ const client = new pg.Client({
 });
 
 
-var input = process.argv[2]
+var input = process.argv[2];
 
 client.connect((err) => {
   if (err) {
